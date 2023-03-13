@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.centerized {
+  @apply flex items-center justify-center;
+}
+
+.items-centerized {
+  @apply flex items-center;
+}
